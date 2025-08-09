@@ -8,4 +8,4 @@ def count_users(csv_file):
 
 if __name__ == "__main__":
     user_count = count_users('abc.csv')
-    print(f"Number of users đã phát hiện: {user_count}")
+    print(f"Number of user: {user_count}")
