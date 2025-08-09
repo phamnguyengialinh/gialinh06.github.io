@@ -1,1 +1,39 @@
-print("hello world")
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gialinh</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .name {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(90deg, #43c6ac, #191654);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 8px rgba(67,198,172,0.3);
+            padding: 40px 80px;
+            border-radius: 30px;
+            box-shadow: 0 8px 32px 0 rgba(67,198,172,0.2);
+            letter-spacing: 0.1em;
+            transition: transform 0.2s;
+        }
+        .name:hover {
+            transform: scale(1.05) rotate(-2deg);
+            box-shadow: 0 16px 48px 0 rgba(67,198,172,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="name">gialinh</div>
+</body>
+</html>
